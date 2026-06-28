@@ -9,27 +9,7 @@ import { loadTasks, saveTasks } from "./LocalStorage";
 export const TaskContext = createContext();
 const initialState = {
   addScreen: false,
-  tasks: [
-    {
-      id: 1,
-      title: "Welcome to your Task Manager! 🚀",
-      description:
-        "This is a sample task to help you get started. You can mark it as complete or delete it.",
-      priority: "High",
-      due: "2026-07-01",
-      category: "Work",
-      status: false,
-    },
-    {
-      id: 2,
-      title: "Buy groceries 🛒",
-      description: "Pick up milk, eggs, and coffee beans.",
-      priority: "Medium",
-      due: "2026-06-30",
-      category: "Personal",
-      status: false, // This one is already completed!
-    },
-  ],
+  tasks: [],
   form: {
     title: "",
     description: "",

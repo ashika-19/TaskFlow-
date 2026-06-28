@@ -14,9 +14,9 @@ function Header() {
   return (
     <>
       {" "}
-      <div classNameName="header">Task Flow - Smart task manager</div>
-      <div classNameName="stats-wrapper">
-        <div classNameName="stat-card total">
+      <div className="header">Task Flow - Smart task manager</div>
+      <div className="stats-wrapper">
+        <div className="stat-card total">
           <span className="stat-number">{tasks.length}</span>
           <span className="stat-label">Total</span>
         </div>
