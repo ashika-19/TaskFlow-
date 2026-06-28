@@ -1,7 +1,6 @@
 import { useContext } from "react";
 import { TaskContext } from "./App";
-import Button from "./Button";
-import { type } from "@testing-library/user-event/dist/type";
+
 import EditBtn from "./EditBtn";
 function AddTask() {
   const { title, description, priority, due, category, dispatch, BtnType } =

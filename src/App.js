@@ -1,11 +1,4 @@
-import {
-  act,
-  createContext,
-  useContext,
-  useReducer,
-  useState,
-  useEffect,
-} from "react";
+import { createContext, useReducer, useEffect } from "react";
 import AddBtn from "./AddBtn";
 import Header from "./Header";
 import Search from "./Search";
