@@ -1,9 +1,9 @@
 import { useContext } from "react";
-import Button from "./Button";
+
 import { TaskContext } from "./App";
 
 function TaskList() {
-  const { tasks, dispatch, status } = useContext(TaskContext);
+  const { tasks, dispatch } = useContext(TaskContext);
 
   return (
     <div>

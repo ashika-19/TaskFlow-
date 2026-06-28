@@ -2,7 +2,7 @@ import { useContext } from "react";
 import { TaskContext } from "./App";
 
 function Search() {
-  const { search, dispatch, backbtn } = useContext(TaskContext);
+  const { search, dispatch } = useContext(TaskContext);
   return (
     <div className="controls-wrapper">
       <section className="search-sec">
